@@ -1,0 +1,31 @@
+LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG – IT3103
+(Trả lời câu hỏi)
+Họ và tên: Trần Công Hưng
+MSSV: 202416936
+Questions:
+- What happens if users choose “Cancel”?
+Khi chọn "Cancel" trong hộp thoại "Save and Launch":
+•	Hành động chạy bị hủy bỏ: Chương trình sẽ không thực thi. Eclipse sẽ dừng quá trình khởi chạy lại ngay lập tức.
+•	Tệp tin không được lưu: Mọi thay đổi vừa thực hiện trên mã nguồn (tệp ChoosingOption.java) sẽ vẫn nằm ở trạng thái chưa lưu (có dấu * cạnh tên tệp).
+•	Trạng thái hiện tại: Sẽ quay trở lại màn hình soạn thảo mã nguồn và có thể tiếp tục chỉnh sửa trước khi quyết định chạy lại lần sau.
+Nói cách khác, nút Cancel đóng vai trò là lệnh "dừng mọi thứ lại" để kiểm tra lại mã hoặc chưa muốn thực thi chương trình với những thay đổi hiện tại.
+- How to customize the options to users, e.g. only two options: “Yes” and “No”, OR “I do” and “I don’t” 
+Dùng hàm showOptionDialog và truyền một mảng String chứa tên các nút vào tham số options. Theo Javadocs, khi mảng này khác null, Java sẽ dùng các phần tử trong mảng đó để tạo ra các nút bấm riêng biệt thay vì dùng các nút mặc định (Yes/No/Cancel).
+Theo tài liệu chính thức của Oracle (Javadocs), hàm showOptionDialog là "phiên bản đầy đủ nhất" của JOptionPane.
+•	Tham số options: Đây là một mảng kiểu Object[]. Nếu ta truyền vào một mảng String[], Java sẽ không sử dụng các nút chuẩn của hệ thống mà sẽ tự động tạo ra các nút bấm tương ứng với từng phần tử trong mảng đó.
+•	Giá trị trả về: Hàm sẽ trả về vị trí (index) của phần tử trong mảng. Ví dụ: Nếu chọn "I do", hàm trả về 0; chọn "I don't", hàm trả về 1.
+
+String[] options = {"I do", "I don't"};
+int result = JOptionPane.showOptionDialog(null,
+        "Muốn đi ngủ chưa",
+        "Chọn đi",
+        JOptionPane.YES_NO_OPTION,
+        JOptionPane.QUESTION_MESSAGE,
+        null,     
+        options,  
+        options[0] (nếu ấn enter luôn thì mặc định là chọn cái options[0])
+);
+
+
+
+
