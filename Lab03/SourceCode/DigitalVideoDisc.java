@@ -13,6 +13,10 @@ public class DigitalVideoDisc {
         this.cost = cost;
     }
 
+    public DigitalVideoDisc(String title) {
+        this.title = title;
+    }
+
     // thêm vào để xử lý cái nhập 3 thông tin thay vì 5 ở bên test
     public DigitalVideoDisc(String title, String category, float cost) {
         this.title = title;
