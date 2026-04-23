@@ -1,3 +1,7 @@
+package hust.soict.dsai.aims.store;
+
+import hust.soict.dsai.aims.disc.DigitalVideoDisc;
+
 public class Store {
     private DigitalVideoDisc danhSachDia[] = new DigitalVideoDisc[100];
     private int soLuongHienTai = 0;
