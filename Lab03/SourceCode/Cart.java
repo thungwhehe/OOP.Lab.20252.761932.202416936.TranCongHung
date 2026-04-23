@@ -75,5 +75,47 @@ public class Cart {
         System.out.println("Total Cost: " + total);
         return total;
     }
-}
 
+    //in danh sách
+    public void print() {
+        System.out.println("***********************GIỎ HÀNG***********************");
+        System.out.println("Các mặt hàng đã đặt:");
+
+        for (int i = 0; i < qtyOrdered; i++) {
+            System.out.println((i + 1) + ". " + itemsOrdered[i].toString());
+        }
+
+        // Gọi hàm totalCost() để lấy tổng tiền
+        System.out.println("Tổng chi phí: " + totalCost() + " $");
+        System.out.println("***************************************************");
+    }
+
+    //tìm kiếm DVD theo ID
+    public void searchById(int id) {
+        boolean found = false;
+        for (int i = 0; i < qtyOrdered; i++) {
+            if (itemsOrdered[i].getId() == id) {
+                System.out.println("Tìm thấy DVD khớp với ID " + id + ": " + itemsOrdered[i].toString());
+                found = true;
+                break;
+            }
+        }
+        if (!found) {
+            System.out.println("Rất tiếc, không tìm thấy DVD nào có ID: " + id);
+        }
+    }
+
+    //tìm kiếm DVD theo tiêu đề
+    public void searchByTitle(String title) {
+        boolean found = false;
+        for (int i = 0; i < qtyOrdered; i++) {
+            if (itemsOrdered[i].isMatch(title)) {
+                System.out.println("Tìm thấy DVD khớp với tiêu đề '" + title + "': " + itemsOrdered[i].toString());
+                found = true;
+            }
+        }
+        if (!found) {
+            System.out.println("Không tìm thấy kết quả phù hợp cho tiêu đề: " + title);
+        }
+    }
+}
