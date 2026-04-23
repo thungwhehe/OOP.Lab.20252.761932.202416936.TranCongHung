@@ -5,16 +5,25 @@ public class DigitalVideoDisc {
     private int length;
     private float cost;
 
+    private static int nbDigitalVideoDiscs = 0;
+    private int id;
+
     public DigitalVideoDisc(String title, String category, String director, int length, float cost) {
         this.title = title;
         this.category = category;
         this.director = director;
         this.length = length;
         this.cost = cost;
+
+        nbDigitalVideoDiscs++;
+        this.id = nbDigitalVideoDiscs;
     }
 
     public DigitalVideoDisc(String title) {
         this.title = title;
+
+        nbDigitalVideoDiscs++;
+        this.id = nbDigitalVideoDiscs;
     }
 
     // thêm vào để xử lý cái nhập 3 thông tin thay vì 5 ở bên test
@@ -22,6 +31,13 @@ public class DigitalVideoDisc {
         this.title = title;
         this.category = category;
         this.cost = cost;
+
+        nbDigitalVideoDiscs++;
+        this.id = nbDigitalVideoDiscs;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public String getTitle() {
@@ -62,5 +78,13 @@ public class DigitalVideoDisc {
 
     public void setCost(float cost) {
         this.cost = cost;
+    }
+    public String toString() {
+        return "DVD - " + getTitle() + " - " + getCategory() + " - " + getDirector() +
+                " - " + getLength() + ": " + getCost() + " $";
+    }
+
+    public boolean isMatch(String title) {
+        return this.getTitle().toLowerCase().contains(title.toLowerCase());
     }
 }
