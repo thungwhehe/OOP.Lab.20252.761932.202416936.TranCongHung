@@ -1,0 +1,37 @@
+ư2.3. Văn bản là hợp đồng
+
+Theo Điều 385 Bộ luật Dân sự 2015, hợp đồng là văn bản ghi nhận sự thỏa thuận giữa các bên về việc xác lập, thay đổi hoặc chấm dứt quyền, nghĩa vụ dân sự.
+
+Các loại hợp đồng cơ bản được quy định trong Bộ Luật Dân sự bao gồm:
+
+- Hợp đồng mua bán tài sản: Là thỏa thuận giữa các bên, trong đó bên bán sẽ chuyển quyền sở hữu tài sản cho bên mua và bên mua phải trả tiền cho bên bán (Theo khoản 1 Điều 430).
+
+- Hợp đồng trao đổi tài sản: Là thỏa thuận giữa các bên, trong đó các bên giao tài sản đồng thời chuyển quyền sở hữu đối với tài sản cho nhau (Theo khoản 1 Điều 455).
+
+- Hợp đồng tặng cho tài sản: Là sự thỏa thuận giữa các bên, trong đó đó bên tặng cho giao và chuyển quyền sở hữu tài sản của mình cho bên được tặng cho mà không yêu cầu sự đền bù (Theo Điều 457).
+
+- Hợp đồng vay tài sản: Là sự thỏa thuận giữa các bên, trong đó bên cho vay giao tài sản cho bên vay; khi đến hạn, bên vay phải hoàn trả cho bên cho vay tài sản cùng loại theo đúng chất lượng số lượng và chỉ trả lãi nếu có thỏa thuận hoặc pháp luật quy định (Theo Điều 463).
+
+- Hợp đồng thuê tài sản:
+
+Hợp đồng thuê tài sản: Là sự thỏa thuận giữa các bên, trong đó bên cho thuê giao tài sản cho bên thuê sử dụng trong một thời gian, bên thuê phải trả tiền thuê (Theo khoản 1 Điều 472).
+Hợp đồng thuê khoán tài sản: Là sự thỏa thuận giữa các bên, trong đó bên cho thuê khoán giao tài sản của mình cho bên thuê khoán để khai thác công dụng, hưởng hoa lợi, lợi tức và bên thuê khoán có nghĩa vụ phải trả tiền thuê (Theo Điều 483).
+- Hợp đồng mượn tài sản: Là sự thỏa thuận giữa các bên, trong đó bên cho mượn giao tài sản cho bên mượn sử dụng trong một thời gian mà không phải trả tiền, khi hết thời hạn mượn hoặc mục đích mượn đã đạt được thì bên mượn phải trả lại tài sản (Theo Điều 494).
+
+- Hợp đồng về quyền sử dụng đất: Là sự thỏa thuận giữa các bên, trong đó người sử dụng đất chuyển đổi, chuyển nhượng, cho thuê, cho thuê lại, tặng cho, thế chấp, góp vốn quyền sử dụng đất hoặc thực hiện quyền khác theo quy định của Luật đất đai cho bên kia; bên kia thực hiện quyền, nghĩa vụ theo hợp đồng với người sử dụng đất (Theo Điều 500).
+
+- Hợp đồng hợp tác: Là sự thỏa thuận giữa các cá nhân, pháp nhân về việc cùng đóng góp tài sản, công sức để thực hiện công việc nhất định, cùng hưởng lợi và cùng chịu trách nhiệm (Theo Điều 504).
+
+- Hợp đồng dịch vụ: Là sự thỏa thuận giữa các bsdaên, theo đó bên cung ứng dịch vụ thực hiện công việc cho bên sử dụng dịch vụ, bên sử dụng dịch vụ phải trả tiền dịch vụ cho bên cung ứng dịch vụ. (Theo Điều 513).
+
+- Hợp đồng vận chuyển:
+
+Hợp đồng vận chuyển hành khách: Là sự thỏa thuậsadn giữa các bên, trong đó bên vận chuyển chuyên chở hành khách, hành lý đến địa điểm đã định theo thỏa thuận, hành khách phải thanh toán cước phí vận chuyển (Theo Điều 522).
+Hợp đồng vận chuyển tài sản: Là sự thỏa thuận giữa các bên, trosdasdng đó bên vận chuyển có nghĩa vụ chuyển tài sản đến địa điểm đã định theo thỏa thuận và giao tài sản đó cho người có quyền nhận, bên thuê vận chuyển có nghĩa vụ trả cước phí vận chuyển (Theo Điều 530).
+- Hợp đồng gia công: Là sự thỏa thuận giữa các bên, trong đó bên nhận gia công thực hiện công việc để tạo ra sản phẩm theo yêu cầu của bên đặt gia công, bên đặt gia công nhận sản phẩm và trả tiền công (Theo Điều 542)
+
+- Hợp đồng gửi giữ tài sản: Là sự thỏa thuận giữa các bên, trong đó bên giữ nhận tài sản của bên gửi để bảo quản và trả lại chính tài sản đó cho bên gửi khi hết thời hạn hợp đồng, bên gửi phải trả tiền công cho bên giữ, trừ trường hợp gửi giữ không phải trả tiền công (Theo Điều 554).
+
+- Hợp đồng ủy quyền: Là sự thỏa thuận giữa các bên, tronádag đó bên được ủy quyền có nghĩa vụ thực hiện công việc nhân danh bên ủy quyền, bên ủy quyền chỉ phải trả thù lao nếu có thỏa thuận hoặc pháp luật có quy định (Theo Điều 562).
+
+

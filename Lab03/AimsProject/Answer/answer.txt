@@ -1,0 +1,10 @@
+LAB 2: Trả lời câu hỏi mục 8: - If you create a constructor method to build a DVD by title then create a constructor method to build
+a DVD by category. Does JAVA allow you to do this?
+KHÔNG, Java không cho phép làm điều này do vi phạm quy tắc về Chữ ký hàm (Method Signature)..
+Lý do :
+Trong Java, việc phân biệt các Constructor dựa trên Phương thức ký danh (Method Signature), bao gồm: số lượng tham số, kiểu dữ liệu của tham số và thứ tự của chúng.
+Cả hai Constructor mà đề bài đưa ra (một cái theo title, một cái theo category) đều chỉ có một tham số duy nhất và cùng chung kiểu dữ liệu là String.
+Khi khởi tạo một đối tượng mới (ví dụ: new DigitalVideoDisc("Aladdin")), trình biên dịch Java sẽ bị xung đột vì không thể xác định được chuỗi "Aladdin" đó là title hay category. Điều này dẫn đến lỗi biên dịch (Compile-time error).
+
+LAB3: - Question: Is JAVA a Pass by Value or a Pass by Reference programming language?
+	Java luôn luôn là Pass-by-Value (Truyền tham trị).
